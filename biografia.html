@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -16,11 +15,25 @@
 
         .contenedor {
             max-width: 750px;
-            margin: auto;
+            margin: 30px auto;
             background-color: white;
-            padding: 20px;
+            padding: 30px;
             border: 2px solid #2365a5;
             text-align: center;
+            border-radius: 12px;
+        }
+
+        /* Espacio y margen para cada sección */
+        .seccion {
+            margin: 25px 10px;
+            padding: 15px 20px;
+            background-color: #f3f8ff;
+            border: 1px solid #b7d4f0;
+            border-radius: 10px;
+        }
+
+        .seccion p {
+            margin: 12px 5px;
         }
 
         h1 {
@@ -29,10 +42,13 @@
         }
 
         h2 {
-            color: #2167a5;
+            color: #174d80;
             text-align: left;
-            border-bottom: 1px solid #2167a5;
-            padding-bottom: 5px;
+            background-color: #dceeff;
+            border: 2px solid #7eadd8;
+            border-radius: 8px;
+            padding: 10px 14px;
+            margin: 0 0 15px 0;
         }
 
         p {
@@ -59,22 +75,30 @@
 
         <h1>Biografia mia</h1>
 
-        <h2>Sobre mí</h2>
-        <p>
-           Mi nombre es martin saenz y tengo 17 años vivo en ecuador
-           voy al colegio benito juarez y estudio informatica
-        </p>
+        <div class="seccion">
+            <h2>Sobre mí</h2>
+            <p>
+               Mi nombre es Martin Saenz y tengo 17 años. Vivo en Ecuador,
+               voy al colegio Benito Juárez y estudio informática.
+            </p>
+        </div>
 
-        <h2>Mis gustos e intereses</h2>
-        <p>
-           me interesa jugar y leer y mis intereses son la 
-           programacion
-        </p>
+        <div class="seccion">
+            <h2>Mis gustos e intereses</h2>
+            <p>
+               Me gusta jugar y leer. También me interesa aprender sobre
+               programación y conocer más sobre la tecnología.
+            </p>
+        </div>
 
-        <h2>Mis metas</h2>
-        <p>
-           Quiero aprender y terminar el año de una manera tranquila y buena
-        </p>
+        <div class="seccion">
+            <h2>Mis metas</h2>
+            <p>
+               Quiero aprender cosas nuevas, mejorar mis conocimientos de
+               informática y programación, cumplir con mis estudios y
+               terminar el año de una manera tranquila y satisfactoria.
+            </p>
+        </div>
 
     </div>
 
